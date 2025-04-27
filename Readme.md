@@ -1,8 +1,9 @@
+
 ---
 
 # 🚀 NyaayVeer – Intelligent Legal Companion
 
-> Making Indian criminal law accessible and understandable, one case at a time.
+Making Indian criminal law accessible and understandable, one case at a time.
 
 ---
 
