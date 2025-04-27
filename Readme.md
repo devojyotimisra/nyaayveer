@@ -33,7 +33,7 @@ This empowers citizens with knowledge, demystifying the law and enhancing legal 
 - Soumyadip Adhikari (GitHub: [mr-infinexus](https://github.com/mr-infinexus) / Role: Backend Developer & DevOps )
 - Soudip Mondal (GitHub: [Soudip1750](https://github.com/Soudip1750) / Role: FullStack Developer )
 
-### Your Approach:  
+### Our Approach:  
 - We selected this problem because access to legal information remains a major hurdle for ordinary citizens, especially with the recent adoption of the Bharatiya Nyaya Sanhita (BNS).
 
 - Challenges included interpreting free-form natural language into accurate legal sections, handling diverse user inputs across multiple languages, and building a fast, responsive mobile interface.
@@ -49,9 +49,9 @@ This empowers citizens with knowledge, demystifying the law and enhancing legal 
 ### Core Technologies Used:
 - Frontend: React Native (TypeScript)
 - Backend: Python Flask (API server)
-- Database: PostgreSQL
-- APIs: Internal REST API, OpenAI APIs
-- Hosting: Render / AWS (future plan)
+- Database: SQLite3
+- APIs: Internal REST API's, Groq's API
+- Hosting: Oracle Cloud & Hugging Face / AWS (future plan)
 
 ### Sponsor Technologies Used:
 - [✅] **Groq:** Used Groq APIs for fast, efficient model inference.
@@ -70,7 +70,7 @@ This empowers citizens with knowledge, demystifying the law and enhancing legal 
 - ✅ Clean and accessible mobile UI (React Native).  
 - ✅ Fast, lightweight AI backend with Groq inference.  
 - ✅ Secure JWT-based authentication for future expansion (user profiles, saved queries).  
-- ✅ Offline caching for previously fetched legal sections.
+- ✅ Server Side Caching.
 
 ---
 
@@ -84,7 +84,7 @@ This empowers citizens with knowledge, demystifying the law and enhancing legal 
 ## ✅ Tasks & Bonus Checklist
 
 - [✅] **Followed 2+ social channels and filled the form**  
-- [✅] **Bonus Task 1 - Shared badges and filled the form (2 points)**  
+- [] **Bonus Task 1 - Shared badges and filled the form (2 points)**  
 - [✅] **Bonus Task 2 - Signed up on Sprint.dev and filled the form (3 points)**
 
 ---
@@ -93,7 +93,8 @@ This empowers citizens with knowledge, demystifying the law and enhancing legal 
 
 ### Requirements:
 - Node.js (for frontend)
-- Python 3.12 and `uv` package manager (for backend)
+- Python 3.12
+- **[uv](https://docs.astral.sh/uv/getting-started/installation/)** (Python package and project manager)
 - Android Studio (for mobile emulator)
 - API Keys:  
   - `GROQ_API_KEY` (for backend AI processing)
@@ -106,13 +107,12 @@ git clone https://github.com/team-sankalp/nyaayveer.git
 cd nyaayveer
 
 # Set up the backend
-cd backend
-uv pip install -r requirements.txt
-# Create .env file with Flask settings
+cd Backend
+# Create .env file & Run Flask app
 uv run flask run
 
 # Set up the frontend
-cd ../frontend
+cd ../Frontend
 npm install
 # Create .env file with backend BASE_URL
 npm run android
@@ -137,7 +137,7 @@ npm run android
 - Frontend `.env` Example:
 
     ```env
-    REACT_APP_BASE_URL=http://127.0.0.1:5000
+    REACT_APP_BASE_URL = ...
     ```
 
 ---
@@ -146,8 +146,8 @@ npm run android
 
 - 📈 Expand to civil law, consumer rights, and labor laws.  
 - 🛡️ Implement end-to-end encryption for user case descriptions.  
-- 🌐 Add multi-language support: Hindi, Marathi, Tamil, etc.  
-- 🤖 Enable case prediction using fine-tuned local models (without API dependency).  
+- 🌐 More robust multi-language support: Bengali, Marathi, Tamil, etc.  
+- 🤖 Enable case prediction using in-house models (without API dependency).  
 - 📲 Launch on Play Store and App Store.
 
 ---
@@ -155,9 +155,8 @@ npm run android
 ## 📎 Resources / Credits
 
 - Groq for providing blazing-fast API endpoints.  
-- Flask, SQLAlchemy, and PostgreSQL open source libraries.  
-- React Native documentation and Expo community.  
-- OpenAI for initial prototype model inspiration.
+- Flask, SQLAlchemy and open source libraries.  
+- React Native documentation and Expo community.
 
 ---
 
