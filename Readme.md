@@ -76,15 +76,15 @@ This empowers citizens with knowledge, demystifying the law and enhancing legal 
 
 ## 📽️ Demo & Deliverables
 
-- **Demo Video Link:** [Insert YouTube/Loom demo link here]  
-- **Pitch Deck / PPT Link:** [Insert Google Slides/PDF link here]
+- **Demo Video Link:** [Youtube Link](https://youtu.be/KUXkycZmE10)  
+- **Pitch Deck / PPT Link:** [PPT Link](https://docs.google.com/presentation/d/1AE5mVxEzgFDxq-xwJyA5zkZ0FCc59A1EjLZmzf1BOO0/)
 
 ---
 
 ## ✅ Tasks & Bonus Checklist
 
 - [✅] **Followed 2+ social channels and filled the form**  
-- [] **Bonus Task 1 - Shared badges and filled the form (2 points)**  
+- [✅] **Bonus Task 1 - Shared badges and filled the form (2 points)**  
 - [✅] **Bonus Task 2 - Signed up on Sprint.dev and filled the form (3 points)**
 
 ---
