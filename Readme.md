@@ -6,12 +6,6 @@ Making Indian criminal law accessible and understandable, one case at a time.
 
 ---
 
-## 📌 Problem Statement
-
-**Problem Statement 1 – Weave AI Magic with Groq**
-
----
-
 ## 🎯 Objective
 
 Understanding and accessing legal help in India is difficult for the common citizen, especially when it comes to criminal law.  
