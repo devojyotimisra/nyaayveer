@@ -1,4 +1,3 @@
-
 ---
 
 # 🚀 NyaayVeer – Intelligent Legal Companion
@@ -23,9 +22,6 @@ This empowers citizens with knowledge, demystifying the law and enhancing legal 
 ---
 
 ## 🧠 Team & Approach
-
-### Team Name:  
-`Team Sankalp`
 
 ### Team Members:  
 - Arpit Chakraborty (GitHub: [arpit-chakraborty](https://github.com/arpit-chakraborty) / Role: Frontend & AI/ML Developer )  
@@ -53,15 +49,6 @@ This empowers citizens with knowledge, demystifying the law and enhancing legal 
 - APIs: Internal REST API's, Groq's API
 - Hosting: Oracle Cloud & Hugging Face / AWS (future plan)
 
-### Sponsor Technologies Used:
-- [✅] **Groq:** Used Groq APIs for fast, efficient model inference.
-- [ ] **Monad:**  
-- [ ] **Fluvio:**  
-- [ ] **Base:**  
-- [ ] **Screenpipe:**  
-- [ ] **Stellar:**  
-
-
 ---
 
 ## ✨ Key Features
@@ -71,23 +58,6 @@ This empowers citizens with knowledge, demystifying the law and enhancing legal 
 - ✅ Fast, lightweight AI backend with Groq inference.  
 - ✅ Secure JWT-based authentication for future expansion (user profiles, saved queries).  
 - ✅ Server Side Caching.
-
----
-
-## 📽️ Demo & Deliverables
-
-- **Demo Video Link:** [Youtube Link](https://youtu.be/KUXkycZmE10)  
-- **Pitch Deck / PPT Link:** [PPT Link](https://docs.google.com/presentation/d/1AE5mVxEzgFDxq-xwJyA5zkZ0FCc59A1EjLZmzf1BOO0/)
-
----
-
-## ✅ Tasks & Bonus Checklist
-
-- [✅] **Followed 2+ social channels and filled the form**  
-- [✅] **Bonus Task 1 - Shared badges and filled the form (2 points)**  
-- [✅] **Bonus Task 2 - Signed up on Sprint.dev and filled the form (3 points)**
-
----
 
 ## 🧪 How to Run the Project
 
